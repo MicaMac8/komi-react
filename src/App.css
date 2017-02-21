@@ -1,21 +1,57 @@
-.App {
-  text-align: center; }
+@import url(../public/stylesheets/generic/normalize.css);
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+  margin: 0;
+  padding: 0; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+html {
+  box-sizing: border-box; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
+*, *::before, *::after {
+  box-sizing: inherit; }
 
-.App-intro {
-  font-size: large; }
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre {
+  margin-bottom: 24px; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+ul, ol,
+dd {
+  margin-left: 24px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+h1 {
+  font-size: 52px; }
+
+h2 {
+  font-size: 42px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 16px; }
+
+p, a, li {
+  font-family: "Lato", sans-serif; }
